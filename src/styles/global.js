@@ -11,7 +11,7 @@ export default createGlobalStyle`
   }
   html, body, #root{
     height: 100%;
-    margin-left: 20px;
+    //margin-left: 20px;
     background: #7159c145;
   }
   body{
