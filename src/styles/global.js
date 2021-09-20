@@ -20,10 +20,10 @@ export default createGlobalStyle`
     color: #333;
     -webkit-font-smoothig: antialiased !important;
   }
-  ul{
+   ul{
     list-style: none;
   }
-
+/*
   li{
     width: 200px;
     height: 60px;
@@ -33,5 +33,5 @@ export default createGlobalStyle`
     margin-bottom: 12px;
     align-items: center;
     display: flex;
-  }
+  } */
 `;
