@@ -11,6 +11,8 @@ export default createGlobalStyle`
   }
   html, body, #root{
     height: 100%;
+    margin-left: 20px;
+    background: #7159c145;
   }
   body{
     font: 14px 'Roboto', sans-serif;
@@ -20,5 +22,16 @@ export default createGlobalStyle`
   }
   ul{
     list-style: none;
+  }
+
+  li{
+    width: 200px;
+    height: 60px;
+    background: #7159c1b5;
+    border: solid 1px #7159c1;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    align-items: center;
+    display: flex;
   }
 `;
